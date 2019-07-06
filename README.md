@@ -1,6 +1,8 @@
 # mongoBuster
 Hunt Open MongoDB instances!
 
+Note from Mili: This fork resolves the vanity import errors, and the type error on the testip function.
+
 ### Features
 
 * Worlds fastest and most efficient scanner ( Uses Masscan ).
