@@ -69,7 +69,7 @@ func execMasscan(ipAddr chan string) {
 }
 
 func workDispatcher(ipAddr chan string, data chan string) {
-	print("Started Scannig servers.")
+	print("Started Scanning servers.")
 	num := 0
 	for value := range ipAddr {
 		num++
